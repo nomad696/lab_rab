@@ -1,0 +1,40 @@
+a, a:visited {
+    color: inherit;
+}
+
+a:hover, a:active {
+  color: #ff8c33;
+}
+
+body {
+    font-size: 16px;
+    background: rgb(222, 240, 204);
+    color: #222222;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    color: #003366;
+}
+
+th, td {
+    border: solid 1px gray;
+    padding: 3px 5px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
